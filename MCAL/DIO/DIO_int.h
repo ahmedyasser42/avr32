@@ -47,7 +47,7 @@
 #define DIO_u8PIN_28        28
 #define DIO_u8PIN_29        29
 #define DIO_u8PIN_30        30
-#define DIO_u8PIN_31	      31
+#define DIO_u8PIN_31	     31
 
 /*********************************************/
 /**!:Comment : intialzation function         */
