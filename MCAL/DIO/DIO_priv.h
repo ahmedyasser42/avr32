@@ -1,8 +1,8 @@
 /*************************************************/
-/*Author					:G-x				 */
-/*Description				:Private file DIO    */
-/*Date						:17 Aug 2019	   	 */
-/*Version					:1.0V				 */
+/*Author	:G-x				 */
+/*Description	:Private file DIO    		 */
+/*Date		:17 Aug 2019	   	 	 */
+/*Version	:1.0V				 */
 /*************************************************/
 #ifndef DIO_PRIVATE_H
 #define	DIO_PRIVATE_H
@@ -30,7 +30,7 @@
 #ifndef DIO_CONFIGURATOIN_H
 #define	DIO_CONFIGURATOIN_H
 /*****************DDRA****************/
-#define DIO_u8PIN_DIR_0		DIO_u8INPUT
+#define DIO_u8PIN_DIR_0	    DIO_u8INPUT
 #define DIO_u8PIN_DIR_1     DIO_u8INPUT
 #define DIO_u8PIN_DIR_2     DIO_u8INPUT
 #define DIO_u8PIN_DIR_3     DIO_u8INPUT
@@ -64,7 +64,7 @@
 #define DIO_u8PIN_DIR_28    DIO_u8INPUT
 #define DIO_u8PIN_DIR_29    DIO_u8INPUT
 #define DIO_u8PIN_DIR_30    DIO_u8INPUT
-#define DIO_u8PIN_DIR_31	DIO_u8INPUT
+#define DIO_u8PIN_DIR_31    DIO_u8INPUT
 /************************************/
 #endif
 
