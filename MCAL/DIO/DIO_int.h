@@ -1,19 +1,19 @@
 /*********************************************/
-/*Author				:G-x				                 */
-/*Description		:Interface file DIO          */
-/*Date					:17 Aug 2019	   	           */
-/*Version				:1.0V				                 */
+/*Author	:G-x	                     */
+/*Description	:Interface file DIO          */
+/*Date		:17 Aug 2019	   	     */
+/*Version	:1.0V  	                     */
 /*********************************************/
 #ifndef DIO_INTERFACE_H
 #define	DIO_INTERFACE_H
 /**********PINVALUE*********/
-#define	DIO_u8HIGH			    1
-#define DIO_u8LOW			     0
+#define	DIO_u8HIGH          1
+#define DIO_u8LOW           0
 /**********PINSTATE*********/
-#define	DIO_u8INPUT  		    1 				
-#define DIO_u8OUTPUT		    0
+#define	DIO_u8INPUT         1 				
+#define DIO_u8OUTPUT        0
 /**********PORTA************/
-#define DIO_u8PIN_0			    0
+#define DIO_u8PIN_0         0
 #define DIO_u8PIN_1         1
 #define DIO_u8PIN_2         2
 #define DIO_u8PIN_3         3
@@ -47,46 +47,46 @@
 #define DIO_u8PIN_28        28
 #define DIO_u8PIN_29        29
 #define DIO_u8PIN_30        30
-#define DIO_u8PIN_31	     31
+#define DIO_u8PIN_31	    31
 
 /*********************************************/
 /**!:Comment : intialzation function         */
 /*********************************************/
 void DIO_vidint(void);
 /*********************************************/
-/**Inputs : 								                 */
-/*			u8Valuecpy : DIO_u8HIGH			         */
-/*					   : DIO_u8LOW                   */
-/*			u8PinNbcpy : DIO_u8PIN_x		         */	
-/*						 x range [0..31]  	           */
+/**Inputs : 				     */				                 
+/*	    u8Valuecpy : DIO_u8HIGH	     */		         
+/*		       : DIO_u8LOW           */        
+/*	    u8PinNbcpy : DIO_u8PIN_x	     */	         	
+/*			 x range [0..31]     */	           
 /*********************************************/
 void DIO_vidSetPinvalue(u8 u8PinNbcpy,u8 u8Valuecpy);
 /*********************************************/
-/**Inputs : 								                 */          
-/*			u8PinNbcpy : DIO_u8PIN_x		         */	
-/*						 x range [0..31]  	           */
+/**Inputs : 				     */				                           
+/*	   u8PinNbcpy : DIO_u8PIN_x	     */	         	
+/*			x range [0..31]      */ 	           
 /*********************************************/
 u8 DIO_u8GetpinValue(u8 u8PinNbcpy);
 /*********************************************/
-/**Inputs : 								                 */          
-/*			DIO_u8PIN_DIR_X:	                   */	
-/*						      x range [0..31]          */
-/*      u8PinNbcpy :DIO_u8PIN_x			         */
-/*						      x range [0..31]		       */		
+/**Inputs : 				     */				                           
+/*		        :DIO_u8PIN_DIR_X:    */	                   	
+/*		         x range [0..31]     */     
+/*           u8PinNbcpy :DIO_u8PIN_x	     */	         
+/*	                 x range [0..31]     */		       		
 /*********************************************/
 void DIO_vidActivePulluP(u8 DIO_u8PIN_DIR_X,u8 u8PinNbcpy);
 /*********************************************/
-/**Inputs : 								                 */          	 
-/*			u8PinNbcpy :DIO_u8PIN_x			         */
-/*						x range [0..31]		             */		
-/*			u8PinDirectioncpy: DIO_u8INPUT	     */
-/*							   DIO_u8OUTPUT	             */
+/**Inputs :                                  */          	 
+/*	    u8PinNbcpy :DIO_u8PIN_x	     */
+/*			 x range [0..31]     */		
+/*	    u8PinDirectioncpy: DIO_u8INPUT   */
+/*			       DIO_u8OUTPUT  */
 /*********************************************/
 void DIO_vidSetPinDirection(u8 u8PinNbcpy,u8 u8PinDirectioncpy);
 /*********************************************/
-/**Inputs : 								                 */          
-/*			 u8PinNbcpy:DIO_u8PIN_x     	       */	
-/*						 x range [0..31]  	           */
+/**Inputs : 	     	                     */          
+/*	    u8PinNbcpy:DIO_u8PIN_x     	     */	
+/*		       x range [0..31]       */
 /*********************************************/
 void DIO_vidTogglePinValue(u8 u8PinNbcpy);
 
