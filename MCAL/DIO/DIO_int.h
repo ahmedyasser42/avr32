@@ -8,7 +8,7 @@
 #define	DIO_INTERFACE_H
 /**********PINVALUE*********/
 #define	DIO_u8HIGH			    1
-#define DIO_u8LOW			      0
+#define DIO_u8LOW			     0
 /**********PINSTATE*********/
 #define	DIO_u8INPUT  		    1 				
 #define DIO_u8OUTPUT		    0
