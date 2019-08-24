@@ -10,8 +10,8 @@
 #define	DIO_u8HIGH          1
 #define DIO_u8LOW           0
 /**********PINSTATE*********/
-#define	DIO_u8INPUT         1 				
-#define DIO_u8OUTPUT        0
+#define	DIO_u8INPUT         0				
+#define DIO_u8OUTPUT        1
 /**********PORTA************/
 #define DIO_u8PIN_0         0
 #define DIO_u8PIN_1         1
