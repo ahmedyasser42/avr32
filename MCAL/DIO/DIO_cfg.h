@@ -1,31 +1,31 @@
 /*************************************************/
-/*Author	:G-x				 */
-/*Description	:Config file DIO                 */
-/*Date		:17 Aug 2019	   	         */
-/*Version	:1.0V				 */
+/*Author					:G-x				 */
+/*Description				:Config file DIO     */
+/*Date						:17 Aug 2019	   	 */
+/*Version					:1.0V				 */
 /*************************************************/
 #ifndef DIO_CONFIGURATOIN_H
 #define	DIO_CONFIGURATOIN_H
 /*configer the pins direction INPUT/OUTPUT*/
 /*******************DDRA*******************/
-#define DIO_u8PIN_DIR_0		DIO_u8INPUT
-#define DIO_u8PIN_DIR_1         DIO_u8INPUT
-#define DIO_u8PIN_DIR_2         DIO_u8INPUT
+#define DIO_u8PIN_DIR_0			DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_1         DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_2         DIO_u8OUTPUT
 #define DIO_u8PIN_DIR_3         DIO_u8INPUT
 #define DIO_u8PIN_DIR_4         DIO_u8INPUT
 #define DIO_u8PIN_DIR_5         DIO_u8INPUT
 #define DIO_u8PIN_DIR_6         DIO_u8INPUT
 #define DIO_u8PIN_DIR_7         DIO_u8INPUT
-/*******************DDRA*******************/
-#define DIO_u8PIN_DIR_8         DIO_u8INPUT
-#define DIO_u8PIN_DIR_9         DIO_u8INPUT
-#define DIO_u8PIN_DIR_10        DIO_u8INPUT
-#define DIO_u8PIN_DIR_11        DIO_u8INPUT
-#define DIO_u8PIN_DIR_12        DIO_u8INPUT
-#define DIO_u8PIN_DIR_13        DIO_u8INPUT
-#define DIO_u8PIN_DIR_14        DIO_u8INPUT
-#define DIO_u8PIN_DIR_15        DIO_u8INPUT
-/*******************DDRA*******************/
+/*******************DDRB*******************/
+#define DIO_u8PIN_DIR_8         DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_9         DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_10        DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_11        DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_12        DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_13        DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_14        DIO_u8OUTPUT
+#define DIO_u8PIN_DIR_15        DIO_u8OUTPUT
+/*******************DDRC*******************/
 #define DIO_u8PIN_DIR_16        DIO_u8INPUT
 #define DIO_u8PIN_DIR_17        DIO_u8INPUT
 #define DIO_u8PIN_DIR_18        DIO_u8INPUT
@@ -34,7 +34,7 @@
 #define DIO_u8PIN_DIR_21        DIO_u8INPUT
 #define DIO_u8PIN_DIR_22        DIO_u8INPUT
 #define DIO_u8PIN_DIR_23        DIO_u8INPUT
-/*******************DDRA*******************/
+/*******************DDRD*******************/
 #define DIO_u8PIN_DIR_24        DIO_u8INPUT
 #define DIO_u8PIN_DIR_25        DIO_u8INPUT
 #define DIO_u8PIN_DIR_26        DIO_u8INPUT
@@ -42,6 +42,6 @@
 #define DIO_u8PIN_DIR_28        DIO_u8INPUT
 #define DIO_u8PIN_DIR_29        DIO_u8INPUT
 #define DIO_u8PIN_DIR_30        DIO_u8INPUT
-#define DIO_u8PIN_DIR_31	DIO_u8INPUT
+#define DIO_u8PIN_DIR_31	    DIO_u8INPUT
 
 #endif
