@@ -15,9 +15,9 @@
 
 #include<util\delay.h>
 
-u8 LCD_u8LineSize;
-u8 LCD_u8AcChar;
-u8 LCD_u8AcLine;
+static u8 LCD_u8LineSize;
+static u8 LCD_u8AcChar;
+static u8 LCD_u8AcLine;
 static u8 LCD_u8STR[33];
 static u8 LCD_u8Tracer;
 /*********************************************/
@@ -83,7 +83,8 @@ void LCD_vidSendCmd(u8 u8CmdCpy)
 /**!:Comment : Clearing LCD Function         */
 /*********************************************/
 void LCD_vidClear()
-{
+{       LCD_u8AcChar=0;
+	LCD_u8AcLine=0;
 	LCD_vidSendCmd(LCD_CLEAR);
 }
 /*********************************************/
@@ -114,7 +115,8 @@ void LCD_vidWriteChar(u8 u8CharCpy)
 /**!:Comment : Return Cursor to 1st Position */
 /*********************************************/
 void LCD_vidHome()
-{
+{       LCD_u8AcChar=0;
+	LCD_u8AcLine=0;
 	LCD_vidSendCmd(LCD_CURSOR_HOME);
 }
 /*********************************************/
@@ -375,5 +377,4 @@ static void vidShiftWordRight(pu8 pu8strcpy , u8 LCD_Indexcpy)
 	LCD_u8CharCounter++;
 
 }
-
 
