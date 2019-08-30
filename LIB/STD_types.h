@@ -1,8 +1,8 @@
 /******************************************/
 /*Author       :ahmed yasser              */
 /*Describtion  :standard types library    */
-/*Date         :8/15/2019			      */
-/*Version      :1.2v				      */
+/*Date         :8/30/2019			      */
+/*Version      :1.3v				      */
 /******************************************/
 #ifndef STD_TYPES_h
 #define STD_TYPES_h
@@ -42,4 +42,13 @@ typedef	const signed long int* 		cps32;
 typedef	const float*				cpf32;
 typedef	const double*				cpf64;
 typedef	const long double* 			cpf80;
+
+typedef enum{
+	INDEX_OUT_OF_RANGE,
+	NULL_POINTER,
+	OK,
+	NOK
+	
+}ErrorStatus;
+
 #endif
